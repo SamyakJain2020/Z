@@ -1,0 +1,15 @@
+for both VM:
+sudo apt install net-tools
+sudo apt open-ssh server
+For VM B:
+ifconfig 
+For VM A:
+scp <file_name> <root>@<IP>
+
+
+  ping <ip of vm2>
+  touch transfer.txt
+  nano transfer.txt
+  //write content->Press Ctr X -> Y -> Enter
+  cat transfer.txt
+  scp transfer.txt vagrant@<ip of 2nd vm>:/home/vagrant

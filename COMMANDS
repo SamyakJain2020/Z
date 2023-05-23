@@ -1,0 +1,78 @@
+AWS LOGIN:
+GMAIL: 2samyakj@gmail.com
+PWD: s2@
+
+GITHUB:
+gamil: samyakjainking@
+pwd: s2
+
+Salesforce: 
+samyak@pict.com
+saa@1
+---------------------------------------------------------------------------------------------------------------
+VS CODE INSTALL: 
+
+DOWNLOAD DEB FILE: https://go.microsoft.com/fwlink/?LinkID=760868
+
+sudo apt install ./<file>.deb
+
+---------------------------------------------------------------------------------------------------------------
+MONGODB INSTALL (UBUNTU): 
+
+sudo apt-get install gnupg curl wget fish neofetch
+
+git clone https://github.com/meghadandapat/LP-II.git
+
+curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
+   sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg \
+   --dearmor
+   
+   
+   
+ # CHoose 1: 
+(For 22.04)
+ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+   
+(For 20.04)
+ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+
+
+(For 18.04) 
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gpg ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/6.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-6.0.list
+
+
+
+sudo apt-get install -y mongodb-org
+
+sudo systemctl start mongod
+(OUTPUT: Failed to start mongod.service: Unit mongod.service not found.)
+
+sudo systemctl daemon-reload
+
+git clone https://github.com/ShubhamPitale/WADL_ps.git
+
+sudo systemctl status mongod
+
+---------------------------------------------------------------------------------------------------------------
+MONGO DB - NODE
+
+npm i nodemon mongoose express cors body-parser
+
+---------------------------------------------------------------------------------------------------------------
+
+VIRTUALBOX INSTALL:
+
+1. sudo apt-get install virtualbox
+2. OK
+3. YES
+KALI VM INSTALL (2.7 GB): https://cdimage.kali.org/kali-2023.1/kali-linux-2023.1-virtualbox-amd64.7z
+UBUNTU VM INSTALL (2.3 GB): https://releases.ubuntu.com/18.04.6/ubuntu-18.04.6-desktop-amd64.iso
+---------------------------------------------------------------------------------------------------------------
+
+
+POSTMAN INSTALL: 
+https://github.com/ShubhamPitale/WADL_ps/archive/refs/heads/main.zip
+https://github.com/meghadandapat/LP-II/archive/refs/heads/main.zip
+https://dl.pstmn.io/download/latest/linux_64
+
+---------------------------------------------------------------------------------------------------------------
